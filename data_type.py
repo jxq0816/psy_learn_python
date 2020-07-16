@@ -1,0 +1,11 @@
+a=2
+a=str(a)
+print("a的值是=",a,"a的类型是：",type(a))
+a=float(a)
+print("a的值是=",a,"a的类型是：",type(a))
+a=int(a)
+print("a的值是=",a,"a的类型是：",type(a))
+b=3
+print("a==b",a==b,type(a==b))
+print("a>b",a>b,type(a>b))
+print("a<b",a<b,type(a<b))
