@@ -5,6 +5,7 @@ time_format='%Y-%m-%d %H:%M:%S'
 time_1=input(time_format)
 target = datetime.strptime(time_1,time_format)
 while True:
+    #清屏 windows下使用'cls',mac下使用'clear'
     os.system('clear')
     now=datetime.now()
     timedelta=target-now
